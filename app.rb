@@ -26,4 +26,5 @@ class App < Sinatra::Base
     @word5 = params[:word5]
     erb :words
   end 
+  
 end
